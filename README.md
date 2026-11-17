@@ -1,4 +1,6 @@
-# DFA Simulator for CSET302
+## Live Demo
+
+[Open DFA Simulator](https://cset302-dfa-simulator.vercel.app/)# DFA Simulator for CSET302
 
 An editable complete DFA simulator with a simple browser UI, string testing, replayable traces, three presets, and twelve demonstration tests with downloadable expected/actual CSV results.
 
