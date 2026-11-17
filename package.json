@@ -1,0 +1,13 @@
+{
+  "name": "cset302-dfa-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 app.py --host 0.0.0.0 --port 3000 --no-browser",
+    "test": "node --test test_browser.mjs",
+    "lint": "node --check dfa.js && node --check demo-cases.js && node --check test_browser.mjs",
+    "build": "node build.mjs"
+  },
+  "engines": {"node": ">=22"}
+}
